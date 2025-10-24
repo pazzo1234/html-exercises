@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>patrick`s card</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="patrick.css">
+</head>
+<body>
 
+    <div class="main-container">
+        <header class="main-header">
+            <h1>Explore Destinations</h1>
+            <p>Responsive card grid — hover or focus a card to reveal details</p>
+        </header>
+
+        <div class="card-grid">
+
+            <a href="#" class="card" tabindex="0">
+                <div class="card-image-wrapper">
+                    <img src="rwanda.png" alt="Lush green hills and valleys of Rwanda.">
+                </div>
+                <div class="card-content">
+                    <div class="tag-wrapper">
+                        <span class="tag tag-blue">Nature</span>
+                        <span class="tag tag-green">Hiking</span>
+                    </div>
+                    <h2>Rwanda Hills</h2>
+                    <p>Short summary of the destination to catch the reader's eye.</p> 
+                    <button class="learn-more-btn">Learn more</button>
+                </div>
+            </a>
+
+            <a href="#" class="card" tabindex="0">
+                <div class="card-image-wrapper">
+                    <img src="hills.jpg" alt="A calm lake at sunrise or sunset.">
+                </div>
+                <div class="card-content">
+                    <div class="tag-wrapper">
+                        <span class="tag tag-blue">Relax</span>
+                        <span class="tag tag-green">Boating</span>
+                    </div>
+                    <h2>Lake Serenity</h2>
+                    <p>A calm lakeside retreat for weekend relaxation.</p> 
+                    <button class="learn-more-btn">Learn more</button>
+                </div>
+            </a>
+
+            <a href="#" class="card" tabindex="0">
+                <div class="card-image-wrapper">
+                    <img src="rwanda.png" alt="Dense canopy over a forest trail.">
+                </div>
+                <div class="card-content">
+                    <div class="tag-wrapper">
+                        <span class="tag tag-blue">Adventure</span>
+                        <span class="tag tag-green">Wildlife</span>
+                    </div>
+                    <h2>Forest Trails</h2>
+                    <p>Dense forests and wildlife spotting opportunities.</p> <!-- Re-added this line --><button class="learn-more-btn">Learn more</button>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+</body>
+</html>
